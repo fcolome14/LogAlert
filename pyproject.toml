@@ -1,0 +1,19 @@
+[project]
+name = "logalert"
+version = "0.1.0"
+description = "Detection of logs and triggers alerts to Microsoft Teams channel"
+authors = [
+    {name = "Ferran Colome",email = "fecs@gmv.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "requests (>=2.33.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
